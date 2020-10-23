@@ -6,7 +6,7 @@ namespace Chess_bot
     {
         static void Main(string[] args)
         {
-             
+            Board test = new Board();
         }
     }
 }

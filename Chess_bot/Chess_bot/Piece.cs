@@ -7,9 +7,9 @@ namespace Chess_bot
     abstract class Piece
     {
         protected bool start;
-        protected int x;
-        protected int y;
-        protected char color;
+        public int x;
+        public int y;
+        public char color;
 
         public abstract void Move(Board board);
 
